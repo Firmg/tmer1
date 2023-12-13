@@ -97,3 +97,32 @@ body{
     font-size: 0.5em;
     font-weight: 300;
 }
+
+@media screen and (max-width: 450px){
+    #time .circle{
+        width: 50px;
+        height: 50px;
+        display: flex;
+    }
+        #time .circle svg {
+            width: 50px;
+            height: 50px;
+            display: none;
+        }
+    #time{
+        gap: 40px;
+    }
+
+    .gf {
+        font-size: 2em;
+        font-weight: 100;
+        color: #fff;
+        text-align: center;
+        line-height: 0.6em;
+        display: none;
+    }
+        .gf span {
+            font-size: 5em;
+            font-weight: 500;
+        }
+}
